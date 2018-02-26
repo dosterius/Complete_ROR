@@ -1,0 +1,8 @@
+if  #condition 1
+  #execute logic 1
+elseif #condition 2
+  #execute logic 2
+else
+  #execute logic 3
+end 
+
