@@ -20,7 +20,6 @@ class User
   def self.identify_yourself
     puts "Hey, I'm a class method. You can $%#$@# me!!"
   end 
-  
 end
 
 class Buyer < User
@@ -65,3 +64,5 @@ puts ""
 3.upto(6) {|i|  print i }
 ('a'..'e').each {|char| print char } 
 puts ""
+
+
