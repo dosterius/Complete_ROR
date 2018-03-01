@@ -1,4 +1,3 @@
-#Assign all cities and codes to hash
 city = {
     'katowice' => 30123,
     'tychy' => 43100,
@@ -40,6 +39,7 @@ loop do
   if result.nil?
     puts "Could not find city called #{answer}"
   else
-    puts "The code for specified city is: #{result}"
+    puts "City's been found in the list. The code for specified city is: #{result}"
   end
+  puts ""
 end
